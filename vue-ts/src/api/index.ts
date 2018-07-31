@@ -1,14 +1,14 @@
 /**
  * 主要接口
  */
-import ajaxRequest from '../util/ajaxRequest';
+import AjaxRequest from '@/util/AjaxRequest';
 
-export const getDataListApi = ajaxRequest.createAjaxRequest({
+export const getDataListApi = AjaxRequest.createAjaxRequest({
   url: 'http://localhost:8080/static/data/dataList.json',
   method: 'get',
 });
 
-export const getConfigApi = ajaxRequest.createAjaxRequest({
+export const getConfigApi = AjaxRequest.createAjaxRequest({
   url: 'http://localhost:8080/data/dataList.json',
   method: 'get',
 });

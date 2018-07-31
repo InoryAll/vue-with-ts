@@ -1,0 +1,27 @@
+// animation.less 动画类
+
+// 向下旋转
+@keyframes rotateIn {
+  0%{
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(90deg);
+  }
+  100%{
+    transform: rotate(180deg);
+  }
+}
+
+// 向上旋转
+@keyframes rotateOut {
+  0%{
+    transform: rotate(180deg);
+  }
+  50%{
+    transform: rotate(90deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}

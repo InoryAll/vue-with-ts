@@ -29,6 +29,7 @@
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
     "typescript": "^3.0.0",
-    "vue-template-compiler": "^2.5.16"
+    "vue-scroll-behavior": "^0.2.0",
+    "vue-template-compiler": "^2.5.16",
   }
 }
